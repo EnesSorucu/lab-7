@@ -19,10 +19,13 @@ public class BoardPresenter implements BoardListener{
         switch (winner){
             case BoardListener.NO_ONE:
                 boardView.gameEnded(BoardView.DRAW);
+                break;
             case BoardListener.PLAYER_1:
                 boardView.gameEnded(BoardView.PLAYER_1_WINNER);
+                break;
             case BoardListener.PLAYER_2:
                 boardView.gameEnded(BoardView.PLAYER_2_WINNER);
+                break;
         }
     }
 
