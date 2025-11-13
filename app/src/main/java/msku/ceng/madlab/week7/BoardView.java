@@ -4,7 +4,7 @@ public interface BoardView {
 
     char PLAYER_1_SYMBOL = 'X';
 
-    char PLAYER_2_SYMBOL = 'Y';
+    char PLAYER_2_SYMBOL = 'O';
 
     byte DRAW = 0;
 
